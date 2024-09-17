@@ -1,6 +1,6 @@
 # Job Executor Server
 
-Job Executor Server is a multithreaded server designed to handle and execute jobs submitted by multiple clients (`jobCommanders`). It uses a producer-consumer model with a queue system, allowing jobs to be executed by worker threads. The server and its components are highly configurable, supporting dynamic thread pools, job cancellation, and job monitoring. Clients communicate with the server via sockets, submitting commands for job execution and server management.
+💻 Job Executor Server is a multithreaded server designed to handle and execute jobs submitted by multiple clients (`jobCommanders`). It uses a producer-consumer model with a queue system, allowing jobs to be executed by worker threads. The server and its components are highly configurable, supporting dynamic thread pools, job cancellation, and job monitoring. Clients communicate with the server via sockets, submitting commands for job execution and server management.
 
 ## Table of Contents
 
